@@ -4,7 +4,7 @@ module = Extension(
     'PyHeston',
     sources=['PyHeston.cpp', 'BSLib.cpp'],
     include_dirs=['/usr/lib/gsl/lib', '/usr/local/include', 'usr/local/Library/include'],
-    library_dirs=['/usr/local/lib'],
+    library_dirs=['/usr/local/lib', 'usr/local/Library/include'],
     libraries=['gsl', 'gslcblas']
 )
 
